@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai06</title>
+
+
+
+    <style>
+        .table-2-conten {
+            display: inline-block;
+        }
+
+        #table-2-b {
+            display: inline-block;
+            margin-left: 20px;
+        }
+
+        #table-2-c {
+            display: inline-block;
+            margin-left: 20px;
+        }
+
+        .table-tr-color {
+            background-color: rgb(228, 126, 202);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h3>Câu a</h3>
+    <div id="table-1">
+        <table border="3px" bordercolor="Orange" bgclor="F9D371" cellspacing="3px" cellpadding="20px">
+            <tr>
+                <th bgcolor="white">1</th>
+                <th bgcolor="white" colspan="4">2</th>
+            </tr>
+
+            <tr>
+                <th bgcolor="white" rowspan="3">3</th>
+                <th bgcolor="Orange">4</th>
+                <th bgcolor="Orange">5</th>
+                <th bgcolor="yellow" rowspan="2">6</th>
+            </tr>
+            <tr bgcolor="Orange">
+                <th>7</th>
+                <th>8</th>
+            </tr>
+            <tr bgcolor="yellow">
+                <th colspan="2">9</th>
+                <th colspan="2">10</th>
+            </tr>
+        </table>
+    </div>
+    <hr>
+
+    <h3>câu b</h3>
+    <div id="table-2-b">
+        <table class="table-2-conten" style="background-color: rgb(228, 179, 114);" border="3px" cellspacing="2px"
+            cellpadding="5px">
+            <tr>
+                <th>(1)</th>
+                <th>(2)</th>
+                <th>(3)</th>
+                <th colspan="2">(4)</th>
+                <th>(5)</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="color: rgb(177, 28, 78);" colspan="4">Part I</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td style="color: rgb(177, 28, 78);" colspan="3"><u>Chapter 1</u> </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td style="color: rgb(177, 28, 78);" colspan="2"><u>Section A</u></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td style="color: rgb(177, 28, 78);" colspan="2"><u>Section B</u></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td style="color: rgb(177, 28, 78);" colspan="3"><u>Chapter 2</u> </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td style="color: rgb(177, 28, 78);" colspan="2"><u>Section A</u></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td style="color: rgb(177, 28, 78);" colspan="2"><u>Section B</u></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="color: rgb(177, 28, 78);" colspan="4">Part II</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td style="color: rgb(177, 28, 78);" colspan="3"><u>Chapter 3</u> </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td style="color: rgb(177, 28, 78);" colspan="2"><u>Section A</u></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td style="color: rgb(177, 28, 78);" colspan="2"><u>Section B</u></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td style="color: rgb(177, 28, 78);" colspan="3"><u>Chapter 4</u> </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td style="color: rgb(177, 28, 78);" colspan="2"><u>Section A</u></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td style="color: rgb(177, 28, 78);" colspan="2"><u>Section B</u></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+    <div id="table-2-b">
+        <h3>With cellpadding</h3>
+        <table class="table-2-conten" border="2px" cellspacing="3px" cellpadding="15px">
+            <tr>
+                <th>6.470</th>
+                <th>6.470</th>
+            </tr>
+            <tr>
+                <th>6.470</th>
+                <th>6.470</th>
+            </tr>
+        </table>
+    </div>
+
+    <div id="table-2-c">
+        <h3> Table with spanning row</h3>
+        <table class="table-2-conten" border="2px" cellspacing="3px" cellpadding="10px">
+            <tr>
+                <td>6.470</td>
+                <td>6.470</td>
+            </tr>
+            <tr>
+                <td rowspan="4">6.470</td>
+            <tr>
+                <td>6.470</td>
+            </tr>
+            <tr>
+                <td>6.470</td>
+            </tr>
+            </tr>
+        </table>
+    </div>
+    <hr>
+
+    <div id="table-3">
+        <table  class="table-3-caption" border="3px" cellspacing="3px" cellpadding="5px">
+            <caption class="table-caption">NUKBER 1-5 in VARIOUS LANGUAGES</caption>
+            <tr class="table-tr-color">
+                <th></th>
+                <th> <u>English</u> </th>
+                <th><u>Espanol</u></th>
+                <th><u>Francais</u></th>
+                <th><u>Italiano</u></th>
+                <th><u>Deutsch</u></th>
+            </tr>
+
+                <tr>
+                    <td style="background-color: aqua;">1</td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>one</i> </td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>uno</i> </td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>un</i> </td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>uno</i> </td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>eins</i> </td>
+                </tr>
+                <tr>
+                    <td style="background-color: aqua;">2</td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>two</i> </td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>dos</i> </td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>deux</i> </td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>due</i> </td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>zwei</i> </td>
+                </tr>
+                <tr>
+                    <td style="background-color: aqua;">3</td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>three</i> </td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>tres</i> </td> 
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>trois</i> </td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>tre</i> </td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>drei</i> </td>
+                </tr>
+                <tr>
+                    <td style="background-color: aqua;">4</td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>four</i> </td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>cuatro</i> </td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>quatre</i> </td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>quattro</i> </td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);">  <i>vier</i> </td>
+                </tr>
+                <tr>
+                    <td style="background-color: aqua;">5</td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>five</i> </td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>cinco</i> </td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>cinq</i> </td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>cinque</i> </td>
+                    <td style="background-color: rgb(223, 151, 219); color: rgb(49, 132, 209);"> <i>funf</i> </td>
+                </tr>
+
+        </table>
+    </div>
+
+
+</body>
+
+</html>
