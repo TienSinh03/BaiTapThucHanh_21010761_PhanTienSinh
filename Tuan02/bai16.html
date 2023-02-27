@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bai16-content {
+            margin: 30px;
+            width: 400px;
+        }
+
+        .head-bai16 {}
+    </style>
+</head>
+
+<body>
+    <div class="bai16-content">
+        <div class="head-bai16">
+            <h1>Travel reservation form</h1>
+            <h3>* denotes mandotory</h3>
+        </div>
+        <div class="center-conten">
+            <form action="">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="name_id">Full name*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" id="name_id" size="20" maxlength="30" placeholder="FirstName LastName">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="address_id">Email address*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" id="address_id" size="20" maxlength="30" placeholder="EMAIL_ADDRESS">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Select_tour_id">Select Tour Package*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="choice_select" id="Select_tour_id">
+                                <option value="">Goa</option>
+                                <option value=""></option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="date_id">Arrival date*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="date" name=" date_arri" id="date_id">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="number_id">Number of person*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="tel" name=" Number" id="number_id" placeholder="UNKONWN_TYPE">
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="radio_qs_id">What would you want to avial?*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="qs_boarding">
+                                <label for="">Boarding</label>
+                                <input type="checkbox" name=" question" id="radio_qs_id">
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                            <div class="qs_fooding">
+                                <label for="">Fooding</label>
+                                <input type="checkbox" name=" question" id="radio_qs_id">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="qs_Sight">
+                                <label for="">Sight seeing</label>
+                                <input type="checkbox" name=" question" id="radio_qs_id">
+                            </div>                       
+                         </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="qs_Discount">
+                                <label for="">Discout Coupon code</label> <br>
+                                <input type="text" name=" Discout" id="radio_qs_id" placeholder="UNKONWN_TYPE">
+                            </div>                         
+                         </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="radio_term_id">Term and conditions*</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="ter_radio">
+                                <input type="radio" name=" terms" id="radio_term_id">
+                                <label for="">I agree</label>
+                                <input type="radio" name=" terms" id="radio_term_id">
+                                <label for="">I disagree</label>
+                                
+                            </div>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="button" value="Complete resvervation"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai17</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #bai17-excise {
+            width: 75%;
+            background-color: rgb(250, 193, 123);
+            margin-top: 30px;
+            margin-left: 20px;
+            font-size: 18px;
+        }
+
+        .heading p {
+            margin: 20px 10px 0px 15px;
+        }
+
+        .center li {
+            margin-top: 10px;
+        }
+
+        .center {
+            margin-left: 50px;
+        }
+
+        .button-submit {
+            margin: 20px;
+            text-align: center;
+            
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="bai17-excise">
+        <div class="heading">
+            <h2 align="center">Survey Form</h2>
+            <p align="left"> If you are interested in purchasing one or more of our products, before ordering please
+                complete some or
+                all of the following survey for our marketing department. Answering any question is optional, and all
+                information will be kept strictly confidential. Thank you very much for your time!</p>
+        </div>
+
+        <div class="center">
+            <form action="">
+                <ol type="1">
+                    <li>
+                        <label for="text_qs">What is your name?</label>
+                        <br>
+                        <input type="text" name="text_qs_name" id="text_qs">
+                    </li>
+                    <li>
+                        <label for="text_qs">What is your date of birth?</label>
+                        <br>
+                        <label for="text_qs">Date: </label>
+                        <input type="date" name="text_qs_date" id="text_qs">
+                    </li>
+                    <li>
+                        <label for="text_qs">What is your mailing address (if you would like to hace a hard copy of our
+                            catalog sent to you)?</label>
+                        <br>
+                        <textarea name="text_qs_area_3" id="text_qs" cols="50" rows="5"
+                            placeholder="Number/P.O. Box/Route:   Street/Avenue/Road: City: State/Sizp: "></textarea>
+                    </li>
+                    <li>
+                        <label for="text_qs">What is your email address?</label>
+                        <br>
+                        <input type="email" name="text_qs_address" size="25" id="text_qs">
+                    </li>
+
+                    <li>
+                        <label for="text_qs">Have you viewed our online porduct catalog?</label>
+                        <br>
+                        <input type="radio" name="text_qs_radio" id="text_qs">
+                        <label for="">Yes</label>
+
+                        <input type="radio" name="text_qs_radio" id="text_qs">
+                        <label for="">No</label>
+                    </li>
+
+                    <li>
+                        <label for="text_qs">If so, what product(s), besides the one you are ordering, might you be
+                            intersested in purchasing in the future? (Check all that apply)</label>
+                        <br>
+                        <input type="checkbox" name="text_qs_chBox_1" id="text_qs">
+                        <label for="">VCR</label>
+                        <br>
+
+                        <input type="checkbox" name="text_qs_chBox_2" id="text_qs">
+                        <label for="">Big Screen TV</label>
+                        <br>
+
+                        <input type="checkbox" name="text_qs_chBox_3" id="text_qs">
+                        <label for="">Audio Equipment</label>
+                        <br>
+
+                        <input type="checkbox" name="text_qs_chBox_4" id="text_qs">
+                        <label for="">Video Equipment</label>
+                        <br>
+
+                        <input type="checkbox" name="text_qs_chBox_5" id="text_qs">
+                        <label for="">Camera Equipment</label>
+                        <br>
+
+                        <input type="checkbox" name="text_qs_chBox_6" id="text_qs">
+                        <label for="">Other</label>
+                        <input type="text" name="place-text-other" placeholder="Please List" id="text_qs">
+                    </li>
+
+                    <li>
+                        <label for="text_qs">Do you have any questions, comments or suggestions before proceeding to the
+                            Order Form?</label>
+                        <br>
+                        <textarea name="text_qs_area_7" id="text_qs" cols="50" rows="7"
+                            placeholder="Your Input: "></textarea>
+                    </li>
+                </ol>
+
+                <div class="button-submit">
+                    <input type="submit" value="Send Form" name="send-submit">
+                    <input style="margin-left: 20px;" type="reset" value="Clear Form" name="clear-submit">
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
