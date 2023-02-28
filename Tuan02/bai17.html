@@ -12,7 +12,7 @@
             padding: 0px;
         }
 
-        #bai17-excise {
+        #bai17-excise-a {
             width: 75%;
             background-color: rgb(250, 193, 123);
             margin-top: 30px;
@@ -35,14 +35,28 @@
         .button-submit {
             margin: 20px;
             text-align: center;
-            
+
         }
 
+        #bai17-excise-b {
+            margin: 30px;
+        }
+
+        #bai17-excise-b div {
+            margin-top: 20px;
+            font-size: 15px;
+        }
+
+        .browser select {
+            width: 18%;
+        }
     </style>
 </head>
 
 <body>
-    <div id="bai17-excise">
+    <h3>Câu a</h3>
+    <div id="bai17-excise-a">
+        
         <div class="heading">
             <h2 align="center">Survey Form</h2>
             <p align="left"> If you are interested in purchasing one or more of our products, before ordering please
@@ -134,7 +148,95 @@
 
             </form>
         </div>
+
     </div>
+
+    <hr>
+    <h2>Câu b</h2>
+    <div id="bai17-excise-b">
+        <form action="">
+            <div class="browser">
+                <label for="">Browser: </label>
+                <select>
+                    <option value=""></option>
+                    <option value=""><a href="https://www.w3schools.com/">W3schools</a></option>
+                    <option value=""><a href="https://fullstack.edu.vn/">F8</a></option>
+                </select>
+            </div>
+
+            <div class="unser_name">
+                <label for="">Username</label>
+                <input type="text">
+            </div>
+
+            <div class="Encry">
+                <label for="">Encryption: </label>
+                <select>
+                    <option value="">2048 (High Grade)</option>
+                </select>
+            </div>
+
+            <div class="range">
+                <span>0</span>
+                <input type="range" name="range_point" min="0" max="100" id="range-choice">
+                <span>100</span> <br>
+                <input type="text" id="range-choice">
+            </div>
+
+            <div class="birth_date">
+                <label for="">Birthday: </label>
+                <input type="date" name="date_bir">
+            </div>
+
+            <div class="color-select">
+                <label for="">Selecet your favorite color: </label>
+                <input type="color" name="Selcolor" value="#FF0303">
+            </div>
+
+
+            <div class="birth_month_year">
+                <label for="">Birthday (date and year): </label>
+                <input type="month" name="bdaymonth">
+            </div>
+
+            <div class="week-select">
+                <label for="">Selecet a week: </label>
+                <input type="week" name="Selưeek">
+            </div>
+
+            <div class="time-select">
+                <label for="">Selecet your favorite color: </label>
+                <input type="time" name="Seltime">
+            </div>
+            <div class="email-user">
+                <label for="">E-mail: </label>
+                <input type="email" name="email">
+            </div>
+
+            <div class="search">
+                <label for="">Search Google: </label>
+                <input type="search" name="search_gg">
+            </div>
+
+            <div class="telphone">
+                <label for="">Telephone: </label>
+                <input type="tel" name="telphone_user">
+            </div>
+
+            <div class="homepage">
+                <label for="">Add your homepage: </label>
+                <input type="text" name="add-home">
+            </div>
+
+            <div class="submit">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+        <p><b>Note: </b>The datalist tag is not supported in Safari or IE9 (and earlier)</p>
+    </div>
+
+
+
 
 </body>
 
