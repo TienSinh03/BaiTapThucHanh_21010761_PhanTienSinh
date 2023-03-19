@@ -6,6 +6,7 @@
 .container {
     width: 1440px;
     display: flex;
+  
 }
 
 .container__left {
@@ -25,6 +26,7 @@
     border-top: none;
     border-bottom: none;
     border-left: none;
+    margin-bottom: 30px;
 }
 
 .Menu__top {
@@ -303,7 +305,7 @@
 }
 
 .container__right-participants{
-    width: 455px;
+    width: 400px;
     height: 345px;
     display: flex;
     border: 1px solid rgb(204, 199, 199);
@@ -321,7 +323,7 @@
 }
 
 .title-partici > li {
-    width: 160px;
+    width: 170px;
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -329,12 +331,15 @@
     margin-bottom: 35px;    
 }
 .title-partici li > span {
-    width: 20px;
+    width: 25px;
     height: 20px;
+    margin-left: 10px;
+    padding-top: 5px;
     text-align: center;
     border-radius: 10px;
     color: #E34D73;
-    background-color: rgb(255, 218, 226);   
+    font-size: 12px ;
+    background-color: rgb(253, 243, 243);   
 }
 
 .name_user > li {
@@ -352,7 +357,7 @@
 }
 
 .partici_icon>ul {
-    margin-right: 50px;
+    margin-right: 20px;
     list-style: none;
 }
 
@@ -360,6 +365,7 @@
     width: 80px;
     height: 35px;
     border: 1px solid rgb(238, 48, 48);
+    color: rgb(238, 48, 48);;
     border-radius: 5px;
     display: flex;
     justify-content: center;
