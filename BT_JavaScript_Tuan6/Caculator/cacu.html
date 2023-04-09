@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./caculator.css">
+    <title>Caculator</title>
+
+</head>
+<body>
+    <div id="app">
+
+        <input type="text" id="inputtext" placeholder="0">
+
+        <div id="button">
+            <button onclick="Clear()"  class="bt bt-aqua btn-ac">AC</button>
+            <button onclick="DEL()"  class="bt bt-aqua btn-add-sub">DEC</button>
+            <button onclick="calculate('%')"  class="bt bt-aqua mod">%</button>
+            <button onclick="calculate('/')"  class="bt operator div">/</button>
+
+            <button onclick="calculate(7)"  class="bt number">7</button>
+            <button onclick="calculate(8)"  class="bt number">8</button>
+            <button onclick="calculate(9)"  class="bt number">9</button>
+            <button onclick="calculate('*')"  class="bt operator mul">*</button>
+
+            <button onclick="calculate(4)"  class="bt number">4</button>
+            <button  onclick="calculate(5)" class="bt number">5</button>
+            <button  onclick="calculate(6)" class="bt number">6</button>
+            <button onclick="calculate('-')"  class="bt operator sub">-</button>
+
+            <button  onclick="calculate(1)" class="bt number">1</button>
+            <button onclick="calculate(2)"  class="bt number">2</button>
+            <button  onclick="calculate(3)" class="bt number">3</button>
+            <button  onclick="calculate('+')" class="bt operator add">+</button>
+
+            <button  onclick="calculate(0)" class="bt number">0</button>
+            <button  onclick="calculate('.')" class="bt number">.</button>
+            <button onclick="Result()"  style="background-color: rgb(18, 117, 163);" class="bt operator equal">=</button>
+        </div>
+
+        <script src="./caculatorJS.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 1000px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app{
+    width: 400px;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px 2px 2px 2px #b1b4bd;
+}
+
+input {
+    height: 60px;
+    width: 100%;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-align: right;
+    margin-right: 6px;
+    font-size: 20px;
+}
+
+#button{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    margin-top: 25px;
+    padding: 30px;
+    border-top: 1px solid #65676e;
+}
+
+.bt{
+    margin-left: 7px;
+    background-color: #22252d;
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.bt-aqua{
+    color: #26d8de;
+}
+
+.btn-num{
+    
+}
+
+.operator{
+    color: #ca8607;
+}
